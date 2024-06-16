@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+}
+main {
+  background: url(./images/banking10.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 640px;
+  width: 100%;
+  position: relative;
+}
+nav {
+  display: grid;
+  grid-template-columns: 3fr 8fr;
+  align-items: center;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.navbar button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+.heading {
+  width: 400px;
+  height: 500px;
+  margin: 50px 170px;
+}
+.heading h1 {
+  font-size: 58px;
+}
+.heading h5 {
+  font-size: 15px;
+  margin-top: 10px;
+}
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(4, 190px);
+  row-gap: 7px;
+  column-gap: 7px;
+  margin-left: 375px;
+  position: absolute;
+  top: 468px;
+}
+.box {
+  width: 100%;
+  height: 130px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  font-size: 17px;
+  border-radius: 2px;
+  box-shadow: 2px 3px 17px rgba(16, 110, 234, 0.15);
+}
+i {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.cards {
+  text-align: center;
+  margin-top: 100px;
+}
+.cards h1 {
+  font-size: 38px;
+  margin-bottom: 20px;
+  margin-top: 170px;
+}
+.end {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin-top: 90px;
+  width: 70%;
+  padding-bottom: 10px;
+}
+.icons i {
+  font-size: 13px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.first {
+  border-radius: 2px;
+  box-shadow: 2px 3px 17px rgba(16, 110, 234, 0.15);
+  width: 300px;
+  height: 280px;
+  position: relative;
+}
+.end p {
+  margin-bottom: 20px;
+}
+.text {
+  height: 80px;
+  width: 100%;
+  margin-top: 100px;
+}
+.buton {
+  margin-top: 60px;
+}
+.buton input {
+  width: 20px;
+}
+.buton button {
+  padding-right: 20px;
+  padding-left: 10px;
+  padding-left: 15px;
+  height: 40px;
+  background-color: white;
+  border: white;
+}
+.image {
+  position: absolute;
+  bottom: 180px;
+  right: 40px;
+}
+.navbar button:hover {
+  background-color: white;
+  color: blue;
+  border-radius: 14px;
+  cursor: pointer;
+  /* transition: all 1.1s; */
+}
+.boxes p:hover {
+  color: blue;
+}
+.boxes i:hover {
+  color: blue;
+}
+.boxes :hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+.image :hover {
+  transform: scale(1.1);
+  transition: all 0.3s;
+}
+.buton button:hover {
+  transform: scale(0.98);
+  color: blue;
+  cursor: pointer;
+}

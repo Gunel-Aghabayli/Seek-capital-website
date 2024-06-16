@@ -1,0 +1,45 @@
+@media (max-width:1371px){
+    .navbar button{
+     font-size: 10px;
+    }
+    .boxes{
+        margin-left: 200px;
+    }
+}
+@media (max-width:1148px){
+    .boxes{
+        margin-left: 150px;
+    }
+}
+@media ( max-width:1069px){
+    .boxes{
+        margin-left: 100px;
+    }
+}
+@media ( max-width:1000px){
+    .boxes{
+        margin-left: 40px;
+    }
+}
+@media ( max-width:854px){
+    .boxes{
+        margin-left: 30px;
+    }
+}
+@media ( max-width:806px){
+    .boxes{
+        margin-left: 60px;
+        
+    }
+}
+@media (max-width:798px){
+    main{
+        width: 898px;
+    }
+}
+@media (max-width:1252px){
+    .end{
+        flex-direction: column;
+        gap: 90px;
+    }
+}
